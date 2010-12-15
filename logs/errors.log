@@ -1,1 +1,178 @@
 
+2010-12-15T09:04:08+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/
+MESSAGE: SQLSTATE[28000] [1045] Access denied for user 'oibs'@'localhost' (using password: NO). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Db\Adapter\Pdo\Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 C:\wamp\www\site\library\Zend\Db\Adapter\Abstract.php(448): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 C:\wamp\www\site\library\Zend\Db\Adapter\Pdo\Abstract.php(238): Zend_Db_Adapter_Abstract->query('DESCRIBE `conte...', Array)
+#3 C:\wamp\www\site\library\Zend\Db\Adapter\Pdo\Mysql.php(156): Zend_Db_Adapter_Pdo_Abstract->query('DESCRIBE `conte...')
+#4 C:\wamp\www\site\library\Zend\Db\Table\Abstract.php(823): Zend_Db_Adapter_Pdo_Mysql->describeTable('contents_cnt', NULL)
+#5 C:\wamp\www\site\library\Zend\Db\Table\Abstract.php(849): Zend_Db_Table_Abstract->_setupMetadata()
+#6 C:\wamp\www\site\library\Zend\Db\Table\Abstract.php(889): Zend_Db_Table_Abstract->_getCols()
+#7 C:\wamp\www\site\library\Zend\Db\Table\Abstract.php(973): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#8 C:\wamp\www\site\library\Zend\Db\Table\Select.php(100): Zend_Db_Table_Abstract->info()
+#9 C:\wamp\www\site\library\Zend\Db\Table\Select.php(78): Zend_Db_Table_Select->setTable(Object(Default_Model_Content))
+#10 C:\wamp\www\site\library\Zend\Db\Table\Abstract.php(1009): Zend_Db_Table_Select->__construct(Object(Default_Model_Content))
+#11 C:\wamp\www\site\application\models\Content.php(113): Zend_Db_Table_Abstract->select()
+#12 C:\wamp\www\site\application\controllers\IndexController.php(64): Default_Model_Content->listRecent('all', 12, -1, 'created', Object(Zend_Locale), -1)
+#13 C:\wamp\www\site\library\Zend\Controller\Action.php(513): IndexController->indexAction()
+#14 C:\wamp\www\site\library\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('indexAction')
+#15 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#16 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#17 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#18 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#19 {main}
+2010-12-15T09:10:57+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:10:59+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:11:49+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:11:58+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:12:03+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:12:05+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:12:15+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:03+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:05+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:07+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:11+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:13+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:15+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:16+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:17+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:21+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
+2010-12-15T09:13:26+02:00 NOTICE (5): FROM: 127.0.0.1. 
+URI: /site/www/images/submit.jpg
+MESSAGE: Invalid controller specified (submit.jpg). 
+STACK TRACE:
+#0 C:\wamp\www\site\library\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\site\library\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\site\library\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\site\www\index.php(30): Zend_Application->run()
+#4 {main}
